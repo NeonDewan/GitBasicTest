@@ -3,6 +3,7 @@ import operator
 
 space = 0
 count = 0
+print("just a text for branch1")
 print("testing testing 123")
 T = int(input("Number of Test Cases(<11) = "))
 if T > 11:
@@ -25,7 +26,7 @@ for i in range(0, T):
     for x in sorted_Si_Fi:
         if space < C:
             space += x
-            count +=1
+            count += 1
         elif space > C:
             break
 
