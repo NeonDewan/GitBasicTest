@@ -3,7 +3,7 @@ import operator
 
 space = 0
 count = 0
-neon = 0
+print("testing testing 123")
 T = int(input("Number of Test Cases(<11) = "))
 if T > 11:
     print("Number of cases should not exceed 11")
